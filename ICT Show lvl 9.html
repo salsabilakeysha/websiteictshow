@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8">
+        <meta charset="viewport" content="width=device-width, initial-scale=1.0">
+        <title>NUSANTARA</title>
+
+        <!--BOOTSRAP CSS-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    </head>
+
+    <!--custom warna-->
+    <style>
+    .bg-blue { background-color:rgb(213, 235, 255); }
+  </style>
+
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      background: #000;
+    }
+
+    /* Container fullscreen */
+    #carouselRounded {
+      width: 100%;
+      height: 100vh;           /* FULL SCREEN */
+      overflow: hidden;
+    }
+
+    /* Slide juga fullscreen */
+    .carousel-item {
+      height: 100vh;
+    }
+
+    /* Gambar diposisikan CENTER dan proporsional */
+    .carousel-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;      /* Isi penuh tanpa melar */
+      object-position: center;/* FOKUS DI TENGAH */
+      display: block;
+    }
+
+    /* Teks di atas gambar */
+    .carousel-caption {
+      top: 15%;
+      bottom: auto;
+      text-shadow: 2px 2px 6px rgba(0,0,0,0.8);
+    }
+  </style>
+</head>
+<body>
+
+    <!-- Carousel -->
+     <section id="home" class="py-5">
+<div id="carouselRounded" class="carousel slide" data-bs-ride="carousel">
+
+  <!-- Indikator -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselRounded" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#carouselRounded" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#carouselRounded" data-bs-slide-to="2"></button>
+  </div>
+
+  <!-- Slides -->
+  <div class="carousel-inner">
+
+    <div class="carousel-item active">
+      <img src="bgr.JPG" alt="">
+      <div class="carousel-caption">
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <img src="gunung.JPG" alt="">
+      <div class="carousel-caption">
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <img src="pulau.JPG" alt="">
+      <div class="carousel-caption">
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Tombol next/prev -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselRounded" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselRounded" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+
+</div>
+</section>
+
+ <!--Navigasi-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">Nusantara</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#info">Info</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#clothes">Clothes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#dance">Dance</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#traditional house">Traditional house</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#indonesian cuisine">Indonesian cuisine</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#advice">Advice</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--Info-->
+    <section id="info" class="py-5 bg-light">
+         <div class="container">
+             <h1 class="text-center mb-4">Nusantara</h1>
+             <p>Nusantara adalah istilah yang merujuk pada gugusan kepulauan yang membentang dari Sabang hingga Merauke. 
+                Kata “Nusantara” berasal dari bahasa Sanskerta, yaitu nusa (pulau) dan antara (di antara).
+                 Istilah ini sejak lama digunakan untuk menggambarkan wilayah kepulauan yang luas, kaya, dan memiliki keragaman budaya, etnis, serta bahasa. 
+                 Kini, Nusantara menjadi simbol persatuan bangsa Indonesia yang hidup dalam keberagaman.</p>
+
+                 <div class="container">
+                <div class="row justify-content-center align-items-center">
+                 <div class="col-md-6 text-center">
+                 <img src="peta.png" class="img-fluid rounded shadow w-75" alt="Video Image">
+                 </div>
+             
+                 <p class="text-center"><em>Peta Budaya Nusantara</em></p>
+
+                 <h3 class="text-right">Geografi Nusantara</h3>
+                 <p>Indonesia dikenal sebagai negara kepulauan terbesar di dunia dengan lebih dari 17.000 pulau yang tersebar di antara dua benua dan dua samudera.
+                     Letak geografis ini menjadikan Nusantara sebagai wilayah yang sangat strategis untuk jalur perdagangan internasional sejak berabad-abad lalu.</p>
+                     <p>Keunikan geografis Nusantara meliputi:</p>
+                     <ul>
+                        <li>Keanekaragaman iklim dan bentang alam</li>
+                        <li>Keindahan pantai, gunung, dan hutan tropis</li>
+                        <li>Kekayaan hayati yang menjadikan Indonesia sebagai pusat biodiversitas dunia</li>
+                     </ul>
+                  <h3 class="text-right">Keberagaman Budaya Nusantara</h3>
+                  <p>Selain kaya secara geografis, Nusantara juga dikenal dengan keberagaman budayanya. Terdapat ratusan
+                       suku bangsa yang mendiami wilayah ini, masing-masing dengan 
+                       adat istiadat, bahasa daerah, dan tradisi yang khas. Dari Sabang hingga Merauke, kekayaan budaya Nusantara tercermin dalam
+                       seni tari, musik tradisional, pakaian adat, rumah adat, serta upacara adat yang diwariskan turun-temurun.
+                       Perbedaan tersebut tidak menjadi penghalang, melainkan kekuatan yang membentuk identitas bangsa. Nilai toleransi, kebersamaan,
+                       dan gotong royong menjadi fondasi yang menyatukan masyarakat Nusantara dalam kehidupan berbangsa dan bernegara.</p>
+
+                  <h3 class="text-right">Nusantara sebagai Identitas Bangsa</h3>
+                  <p>Nusantara bukan sekadar istilah geografis, tetapi juga mencerminkan jati diri bangsa Indonesia. 
+                       Semangat persatuan dalam keberagaman tercermin dalam semboyan Bhinneka Tunggal Ika, yang berarti berbeda-beda tetapi tetap satu. 
+                       Nilai ini mengajarkan pentingnya saling menghargai perbedaan demi terciptanya keharmonisan.
+                       Di tengah tantangan globalisasi dan modernisasi, menjaga dan melestarikan nilai-nilai Nusantara menjadi hal yang sangat penting.
+                       Dengan memahami dan menghargai kekayaan alam serta budaya yang dimiliki, Nusantara akan terus menjadi sumber kekuatan, identitas, 
+                       dan kebanggaan bagi seluruh rakyat Indonesia.</p>
+
+              <div class="container">
+                <div class="row justify-content-center align-items-center">
+                  <div class="col-md-8 text-center">
+                    <video class="w-100" controls>
+                      <source src="vt.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                  </div>
+                </div>
+              </div>
+
+        <p class="text-center"><em>Nusantara : Bhinneka Tunggal Ika</em></p>
+
+        <h3 class="text-right">Nusantara dalam Semangat Bhinneka Tunggal Ika</h3>
+        <p>Nusantara merupakan gambaran utuh wilayah kepulauan Indonesia yang kaya akan
+           keberagaman alam, budaya, suku, bahasa, dan tradisi. Di tengah keragaman tersebut, 
+           bangsa Indonesia disatukan oleh semboyan Bhinneka Tunggal Ika, yang berarti berbeda-beda tetapi tetap satu.</p>
+        <p>Konsep Nusantara mencerminkan kondisi geografis Indonesia sebagai negara kepulauan.
+           Setiap pulau memiliki ciri khas dan kebudayaannya sendiri. Namun, perbedaan ini tidak menjadikan bangsa Indonesia terpecah. 
+           Justru, keberagaman tersebut menjadi kekuatan yang membentuk identitas nasional.</p>
+        <p>Bhinneka Tunggal Ika berperan sebagai landasan persatuan bangsa Nusantara.
+           Semboyan ini mengajarkan toleransi, saling menghormati, dan hidup berdampingan secara damai. Nilai ini sangat penting dalam menjaga
+           keharmonisan masyarakat yang multikultural, baik dalam kehidupan sosial, budaya, maupun beragama.</p>
+        <p>Dalam kehidupan berbangsa dan bernegara, semangat Bhinneka Tunggal Ika mendorong masyarakat 
+           Nusantara untuk tetap bersatu meskipun memiliki latar belakang yang berbeda.
+           Persatuan inilah yang menjadi fondasi kuat bagi pembangunan nasional dan ketahanan bangsa.</p>
+        <p>Dengan menjunjung tinggi nilai Bhinneka Tunggal Ika, Nusantara tidak hanya menjadi wilayah geografis, 
+           tetapi juga simbol persatuan dan kebanggaan bangsa Indonesia. Keberagaman bukanlah penghalang, melainkan 
+           anugerah yang harus dijaga dan dirawat bersama demi masa depan Indonesia yang damai dan sejahtera.</p>
+    </div>
+             </div>
+    </section>
+
+    <!--clothes-->
+<section id="clothes" class="py-4 bg-blue">
+  <div class="container">
+    <h2 class="text-center mb-4">Clothes</h2>
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <div class="card shadow-sm">
+          <img src="kebaya.JPG" class="card-img-top" alt="Student Project 1">
+          <div class="card-body">
+            <h5 class="card-title">Kebaya Sunda</h5>
+            <p class="card-text">Pakaian adat Jawa Barat adalah kebaya Sunda untuk wanita dan baju pangsi atau beskap untuk pria.
+                 Busana ini biasanya dipadukan dengan kain batik dan ikat kepala khas Sunda.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card shadow-sm">
+          <img src="ta'a.JPG" class="card-img-top" alt="Student Project 2">
+          <div class="card-body">
+            <h5 class="card-title">Baju Ta'a</h5>
+            <p class="card-text">Pakaian adat Kalimantan Timur adalah baju Ta’a untuk wanita dan sapei sapaq untuk pria.
+                 Ciri khasnya motif Dayak dan hiasan manik-manik. Biasanya dipakai pada upacara adat.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card shadow-sm">
+          <img src="bali.JPG" class="card-img-top" alt="Student Project 3">
+          <div class="card-body">
+            <h5 class="card-title">Kebaya Bali</h5>
+            <p class="card-text">Pakaian adat Bali terdiri dari kebaya untuk wanita dan kain kamen serta udeng untuk pria. 
+                Busana ini dipakai saat upacara adat dan keagamaan sebagai simbol kesucian.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--dance-->
+<section id="dance" class="py-4 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-4">Dance</h2>
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <div class="card shadow-sm">
+          <img src="piring.JPG" class="card-img-top" alt="Student Project 1">
+          <div class="card-body">
+            <h5 class="card-title">Tari Piring</h5>
+            <p class="card-text">Tari Piring adalah tarian tradisional dari Minangkabau, Sumatra Barat,
+                 yang menggunakan piring sebagai properti utama. Penari mengayunkan piring di 
+                telapak tangan dengan cepat tanpa menjatuhkannya, melambangkan rasa syukur dan kegembiraan masyarakat Minang.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card shadow-sm">
+          <img src="gandrung.JPG" class="card-img-top" alt="Student Project 2">
+          <div class="card-body">
+            <h5 class="card-title">Tari Gandrung Sewu</h5>
+            <p class="card-text">Tari Gandrung Sewu adalah tarian massal khas Banyuwangi yang ditampilkan oleh 
+                ribuan penari di tepi pantai Boom. Tarian ini menampilkan keindahan budaya Using dan menggambarkan kegembiraan
+                 serta rasa syukur masyarakat Banyuwangi, dengan gerakan yang kompak dan kostum berwarna cerah.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card shadow-sm">
+          <img src="pendet.JPG" class="card-img-top" alt="Student Project 3">
+          <div class="card-body">
+            <h5 class="card-title">Tari Pendet</h5>
+            <p class="card-text">Tari Pendet adalah tari tradisional Bali yang awalnya digunakan dalam upacara 
+                di pura untuk menyambut dewa, lalu berkembang menjadi tari penyambutan tamu. 
+                Penarinya menebar bunga dari bokor sebagai simbol kesucian, dan gerakannya lembut serta anggun.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--tradisional house-->
+<section id="traditional house" class="py-4 bg-blue">
+  <div class="container">
+    <h2 class="text-center mb-4">Tradisional House</h2>
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <div class="card shadow-sm">
+          <img src="gadang.JPG" class="card-img-top" alt="Student Project 1">
+          <div class="card-body">
+            <h5 class="card-title">Rumah Gadang</h5>
+            <p class="card-text">Rumah adat Sumatera Barat adalah Rumah Gadang, yaitu rumah panggung
+                 dengan atap bergonjong menyerupai tanduk kerbau. Rumah ini dihuni keluarga besar 
+                Minangkabau dan memiliki banyak ukiran bermotif alam sebagai lambang filosofi adat.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card shadow-sm">
+          <img src="selaso.JPG" class="card-img-top" alt="Student Project 2">
+          <div class="card-body">
+            <h5 class="card-title">Rumah Selaso</h5>
+            <p class="card-text">Rumah adat Riau adalah Rumah Selaso Jatuh Kembar, yaitu rumah 
+                panggung yang memiliki dua selasar lebih rendah dari ruangan utama. Bangunan ini
+                 tidak digunakan untuk tempat tinggal, tetapi untuk musyawarah, pertemuan adat, dan kegiatan masyarakat Melayu.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card shadow-sm">
+          <img src="candi.JPG" class="card-img-top" alt="Student Project 3">
+          <div class="card-body">
+            <h5 class="card-title">Candi Bentar</h5>
+            <p class="card-text">Rumah adat Bali yang berbentuk gerbang adalah Candi Bentar, 
+                yaitu gapura terbelah dua yang berdiri simetris sebagai pintu masuk ke pura atau bangunan suci.
+                 Struktur ini melambangkan keseimbangan antara dunia nyata dan dunia spiritual.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!--indonesia cuisine-->
+<section id="indonesian cuisine" class="py-4 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-4">Indonesia Cuisine</h2>
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <div class="card shadow-sm">
+          <img src="dawet.JPG" class="card-img-top" alt="Student Project 1">
+          <div class="card-body">
+            <h5 class="card-title">Dawet</h5>
+            <p class="card-text">Dawet adalah minuman tradisional Indonesia yang berasal dari Jawa.
+               Ciri khasnya cendol dari tepung beras, kuah santan, dan gula merah cair. 
+              Biasanya disajikan dengan es sehingga rasanya manis dan menyegarkan.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card shadow-sm">
+          <img src="putu.JPG" class="card-img-top" alt="Student Project 2">
+          <div class="card-body">
+            <h5 class="card-title">Putu Ayu</h5>
+            <p class="card-text">Kue putu ayu adalah kue tradisional Indonesia berbahan dasar tepung 
+              terigu dan kelapa parut. Ciri khasnya bentuk cetakan bunga dengan lapisan kelapa di bagian atas. 
+              Biasanya disajikan sebagai kudapan manis pada acara keluarga atau sajian sore hari.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card shadow-sm">
+          <img src="sate.JPG" class="card-img-top" alt="Student Project 3">
+          <div class="card-body">
+            <h5 class="card-title">Sate Ayam</h5>
+            <p class="card-text">Sate ayam adalah makanan khas Indonesia berupa potongan daging ayam yang
+               ditusuk dan dipanggang. Ciri khasnya disajikan dengan bumbu kacang dan kecap manis.
+               Biasanya dinikmati dengan lontong atau nasi pada berbagai acara dan makanan sehari-hari.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--Advice-->
+<section id="advice" class="bg-light">
+  <div class="container mt-4"></div>
+        
+            <h2 class="text-center mb-4">Suggestion Form</h2>
+
+            <!--Form Start-->
+            <form class="border p-4 bg-white rounded">
+
+                <!--Full Name-->
+                <div class="mb-3">
+                    <label for="name" class="form-label">Full Name</label>
+                    <input type="name" class="form-control" id="name" placeholder="Enter your full name">
+                </div>
+
+                <!--Email-->
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                </div>
+             <!--no hp-->
+                <div class="mb-3">
+                            <label for="nomor hp" class="form-label">Nomor HP</label>
+                            <input type="tel" class="form-control" id="nomor hp" placeholder="masukkan nomor hp">
+                        </div>
+
+                <!--Select-->
+                <div class="mb-3">
+                    <label for="gender" class="form-label">Gender</label>
+                    <select class="form-select" id="grade">
+                        <option selected>Select Gender</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select>
+                </div>
+               <!--Pertanyaan-->
+                <div class="mb-3">
+                            <label for="floatingTextarea">Apa yang menurut Anda perlu dilakukan untuk melestarikan budaya Nusantara?</label>
+                            <textarea rows="4" class="form-control" placeholder="alasan" id="floatingTextarea" required></textarea>
+                        </div>
+
+                <div class="mb-3">
+                            <label for="floatingTextarea">Bagaimana cara menjaga keragaman dan persatuan di Nusantara?</label>
+                            <textarea rows="4" class="form-control" placeholder="alasan" id="floatingTextarea" required></textarea>
+                        </div>
+                <div class="mb-3">
+                            <label for="floatingTextarea">Apa harapan Anda untuk perkembangan Nusantara di masa depan?</label>
+                            <textarea rows="4" class="form-control" placeholder="alasan" id="floatingTextarea" required></textarea>
+                        </div>
+
+
+                <!--Button-->
+                <button type="submit" class="btn btn-primary w-100">Submit</button>
+
+            </form>
+            <!--Form End-->
+            </div>
+</section>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<!--footer-->
+<footer class="bg-primary text-white py-4 text-center">
+  <div class="container">
+    <p class="mb-0">&copy; 2025 Nusantara. All rights reserved.</p>
+  </div>
+</footer>
+</body>
+</html>
